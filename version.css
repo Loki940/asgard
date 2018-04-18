@@ -3,7 +3,7 @@
 td a[href="/manga/48881/Darwins_Game"]:after {
 margin-top: 0px;
 position: absolute;
-left: 50%;
+right: 50%;
 margin-right: 5px;
 content: "Paper";
 color: black;
@@ -14,7 +14,7 @@ font-weight: lighter;
 td a[href="/manga/56743/Dungeon_ni_Deai_wo_Motomeru_no_wa_Machigatteiru_Darou_ka"]:after {
 margin-top: 0px;
 position: absolute;
-left: 50%;
+right: 50%;
 margin-right: 5px;
 content: "Digital";
 color: black;
