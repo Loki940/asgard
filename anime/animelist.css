@@ -1388,9 +1388,6 @@ height: 15px;
 transition: opacity .3s linear, margin-left .5s ease, transform 1s ease-in-out;
 z-index: 6;
 }
-
-.list-table .list-table-data .data.tags span:after {
-   position: fixed;
    
     right: calc( 50% + 510px);
 top: calc(20% + 230px);
