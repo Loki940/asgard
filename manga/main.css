@@ -1,12 +1,10 @@
-@import url('https://loki940.github.io/maladdon/manga/version.css');
-
 :root {
     --shade1: #607d8b;
     --shade2: #78909c;
     --shade3: #90a4ae;
 }
 .cover-block::before {
-    content: "vZangetsuha" !important;
+    content: "Loki940" !important;
 }
 body {
     color: white;
@@ -456,7 +454,7 @@ a {
     padding: 0;
 }
 .list-unit {
-    border-radius: 25px;
+    border-radius: 15px;
     box-shadow: 0 3px 6px -2px gray;
     display: block;
     margin: 0 auto;
