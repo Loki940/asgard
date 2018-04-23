@@ -1,22 +1,23 @@
-/* Chapters */
+/* TOTAL VOLUMES REMOVING */
 
-td a[href="/manga/48881/Darwins_Game"]:after {
-margin-top: 0px;
-position: absolute;
-right: 55%;
-margin-right: 400px;
-content: "Paper";
-color: black;
-font-weight: lighter;
+.data.volume {
+	font-size: 0;
+	line-height: 0;
+}
+.data.volume .link,
+.completed ~ .data.volume span,
+[class^="icon-add-"],
+.data.volume span:after,
+.data.volume .link:after {
+	font-size: 11px;
+	line-height: 1;
+	white-space: pre;
+}
+[class^="icon-add-"] {
+	margin-left: 3px;
 }
 
-
-td a[href="/manga/56743/Dungeon_ni_Deai_wo_Motomeru_no_wa_Machigatteiru_Darou_ka"]:after {
-margin-top: 0px;
-position: absolute;
-right: 55%;
-margin-right: 400px;
-content: "Digital";
-color: black;
-font-weight: lighter;
+/* NO GAME NO LIFE */
+.data.volume div[class$="48399"] span:first-child:after {
+	content: " / 4";
 }
