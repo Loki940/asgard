@@ -1307,15 +1307,6 @@ color: #fff;
     font-weight: bold;
 }
 
-.list-table .list-table-data .data.score {
-width: 21px !important;
-height: 21px !important;
-background-image: url(http://i.imgur.com/udzEw6G.png);
-background-repeat: no-repeat;
-background-size:contain;
-background-position: 50% 50%;
-}
-
 .data.score .link {
     background: var(--shade1) none repeat scroll 0 0 !important;
     border-radius: 5px;
