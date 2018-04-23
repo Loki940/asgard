@@ -360,8 +360,8 @@ a {
 .status-menu-container {
     background-color: var(--shade1);
     border: medium none !important;
-    border-radius: 0 0 25px 25px !important;
-    box-shadow: 0 3px 6px -2px gray;
+    border-radius: 0 0 5px 5px !important;
+    box-shadow: 0 0 6px 6px gray;
     color: white !important;
     height: 46px;
     margin: auto !important;
