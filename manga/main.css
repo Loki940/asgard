@@ -361,7 +361,7 @@ a {
     background-color: var(--shade1);
     border: medium none !important;
     border-radius: 0 0 5px 5px !important;
-    box-shadow: 0 0 6px 6px gray;
+    box-shadow: 0 0 6px -2px gray;
     color: white !important;
     height: 46px;
     margin: auto !important;
