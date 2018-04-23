@@ -17,7 +17,43 @@
 	margin-left: 3px;
 }
 
+/* DARWIN'S GAME */
+.data.volume div[class$="48881"] span:first-child:after {
+	content: " / 11";
+}
+
+/* DANMACHI */
+.data.volume div[class$="56743"] span:first-child:after {
+	content: " / 10";
+}
+
 /* NO GAME NO LIFE */
 .data.volume div[class$="48399"] span:first-child:after {
-	content: " / 4";
+	content: " / Possesed: 4 / Released: 7";
 }
+.data.volume div[class$="48399"] span:first-child:before {
+	content: "Finished: ";
+}
+
+/* TRINITY SEVEN */
+.data.volume div[class$="24822"] span:first-child:after {
+	content: " / 6";
+}
+
+/* PANDORA HEARTS */
+.data.volume div[class$="3031"] span:first-child:after {
+	content: " / 24";
+}
+
+/* DEATH MARCH */
+.data.volume div[class$="83019"] span:first-child:after {
+	content: " / 3";
+}
+
+/* TATE NO YUUSHA */
+.data.volume div[class$="67617"] span:first-child:after {
+	content: " / 1";
+}
+
+
+
