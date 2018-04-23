@@ -1017,12 +1017,6 @@ z-index:200 !important;
 	padding:0 !important;
 }
 
-.list-table .list-table-header .header-title.score {
-   text-align: center;
-	width:90px;
-	line-height: 40px;
-	padding:0 !important;
-}
 
 .list-table .list-table-header .header-title.type {
    text-align: center;
@@ -1304,7 +1298,7 @@ color: #fff;
 
 .list-table .list-table-data .data.score .link {
     font-size: 1.1em;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 .data.score .link {
@@ -1313,12 +1307,6 @@ color: #fff;
     display: inline-block;
     line-height: 21px !important;
     width: 29px !important;
-}
-
-.list-table .list-table-data .data.score a {color:#fff !important;}
-
-td.td1.borderRBL {
-color:#fff;
 }
 
 /*add edit */
