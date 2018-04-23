@@ -29,10 +29,7 @@
 
 /* NO GAME NO LIFE */
 .data.volume div[class$="48399"] span:first-child:after {
-	content: " / Possesed: 4 / Released: 7";
-}
-.data.volume div[class$="48399"] span:first-child:before {
-	content: "Finished: ";
+	content: " / 4";
 }
 
 /* TRINITY SEVEN */
