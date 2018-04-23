@@ -1316,9 +1316,12 @@ background-size:contain;
 background-position: 50% 50%;
 }
 
-.list-table .list-table-data:hover .data.score {
-	background-image: url(http://i.imgur.com/EQcGOeO.png);
-	text-shadow: 0 0 2px #000, 0 0 1px #000, 1px 1px 4px #000, 0 0 0 #000;
+.data.score .link {
+    background: var(--shade1) none repeat scroll 0 0 !important;
+    border-radius: 5px;
+    display: inline-block;
+    line-height: 21px !important;
+    width: 29px !important;
 }
 
 .list-table .list-table-data .data.score a {color:#fff !important;}
