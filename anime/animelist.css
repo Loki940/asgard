@@ -1401,17 +1401,6 @@ width:150px !important;
 height:auto;
 pointer-events: none;
 /* animation */
- transition: opacity .3s linear, margin-left .5s ease, transform 1s ease-in-out;
-}
-
-.list-table .list-table-data:hover .data.tags, .list-table .list-table-data:hover .data.tags span:after {
- opacity: 1;
- padding:5px;
- box-sizing: border-box;
- right: calc( 50% + 510px);
- transition: opacity .3s linear, margin-left .5s ease, transform 1s ease-in-out;
-
-}
 
 .list-table .list-table-data .data.tags * {color: #fff !important;}
 
