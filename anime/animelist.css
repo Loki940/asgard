@@ -1432,7 +1432,6 @@ pointer-events: none;
 
 .list-table .list-table-data:hover .data.tags, .list-table .list-table-data:hover .data.tags span:after {
  opacity: 1;
- padding:5px;
  box-sizing: border-box;
  transition: opacity .3s linear, margin-left .5s ease, transform 1s ease-in-out;
 

@@ -6,12 +6,12 @@
 
 .data.licensor a, .data.studio a, .data.tags a:not(.edit) {
 	display: block !important;
-    font-size: 11px !important;
+    font-size: 9px !important;
 }
 
 .tags div a {
 	position: absolue !important;
-	padding: 1px 7px 1px 7px;
+	padding: 1px 6px 1px 6px;
 	border-radius: 3px;
 	box-shadow: 0 0 2px #000;
 	
@@ -19,7 +19,7 @@
 	font: bold 14px/20px "Poiret One";
 }
 
-.tags div [href*="Spring"] { background: #B0F2B6; left: 810px !important; width: 50px !important;}
+.tags div [href*="Spring"] { background: #B0F2B6; right: 1050px !important; bottom: 5px !important; width: 50px !important; position: absolute !important;}
 .tags div [href*="Summer"] { background: #F0E68C; }
 .tags div [href*="Fall"] { background: #DEB887; }
 .tags div [href*="Winter"] { background: #F0FFFF; }
