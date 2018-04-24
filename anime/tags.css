@@ -25,5 +25,5 @@
 .tags div [href*="Winter"] { background: #F0FFFF; right: 908px !important; margin-top: 22px !important; width: 50px !important; position: absolute !important;}
 .tags div [href*="Later"] { background: #FDFBFC; right: 908px !important; margin-top: 22px !important; width: 50px !important; position: absolute !important;}
 .tags div [href*="Mature"] { background: #BB93D8; margin-left: 87px !important; width: 50px !important;}
-.tags div:hover [href*="Mature"] { background: #FFFFFF;}
+.tags div:hover [href*="Mature"] { background: #FFFFFF; width: 50px !important;}
 .tags div [href*="Isekai"] { background: #8AC6E0; margin-left: 87px !important; width: 50px !important;}
