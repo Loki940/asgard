@@ -8,6 +8,7 @@
 }
 
 .tags div a {
+	position: absolute !important;
 	padding: 1px 7px 1px 7px;
 	border-radius: 3px;
 	box-shadow: 0 0 2px #000;
