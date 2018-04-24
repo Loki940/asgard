@@ -1193,7 +1193,7 @@ color: #fff !important;
     color: #fff;
 }
 
-.list-table .list-table-data .edit {
+.list-table .list-table-data .tags .edit {
     display: block;
     width: 100%;
     text-align: center;
@@ -1680,7 +1680,6 @@ body[data-query*='"status":7'] {
 
 
 
- span a[href*="&tag=!"], span a[href*="&tag=%40"], span a[href*="&tag=~"] {display: none !important;}
 
 /* favorite */
 @media entrytags-favorites {}
