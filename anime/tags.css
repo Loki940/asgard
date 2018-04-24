@@ -1,14 +1,16 @@
 .data.licensor span, .data.studio span, .data.tags span {
+	display: block;
     font-size: 0 !important;
     line-height: 0;
 }
 
 .data.licensor a, .data.studio a, .data.tags a:not(.edit) {
+	display: block !important;
     font-size: 11px !important;
 }
 
 .tags div a {
-	position: fixed !important;
+	position: absolue !important;
 	padding: 1px 7px 1px 7px;
 	border-radius: 3px;
 	box-shadow: 0 0 2px #000;

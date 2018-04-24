@@ -1404,8 +1404,6 @@ height: 15px;
 /* review section */
 
 .list-table .list-table-data .data.tags {
-   	right: calc( 50% + 510px);
-	top: calc(20% + 230px);
 	line-height: 16px !important;
 	font-family: Segoe UI, Atilla, Arial, Helvetica, sans-serif;
 	text-align:center;
@@ -1414,6 +1412,7 @@ height: 15px;
 /* animation */
 	transition: opacity .3s linear, margin-left .5s ease, transform 1s ease-in-out;
 	z-index: 6;
+	position:absolute !important;
 }
 
 .list-table .list-table-data .data.tags span:after {
