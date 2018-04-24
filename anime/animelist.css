@@ -1005,7 +1005,7 @@ z-index:200 !important;
     background-image: none;
 }
 
-.list-table .list-table-header .header-title.status,.list-table .list-table-header .header-title.number,.list-table .list-table-header .header-title.image,.list-table .list-table-header .header-title.tags  {
+.list-table .list-table-header .header-title.status,.list-table .list-table-header .header-title.number,.list-table .list-table-header .header-title.image,.list-table .list-table-header  {
     background-image: none;
     display:none !important;
 }
