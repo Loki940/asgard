@@ -1202,7 +1202,7 @@ color: #fff !important;
     font-family: 'Helvetica neue', Helvetica, "lucida grande", tahoma, verdana, arial, sans-serif;
 	display:none;
 }
-.list-table .list-table-data .tags .edit:hover {
+.list-table .list-table-data .edit:hover {
     display:none;
 }
 
