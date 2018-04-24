@@ -844,6 +844,11 @@ background-color: #9B9B9B;}
 /**
  * List Container - List Status Title (with Stats)
  */
+ 
+.list-item {
+	height: 50px !important;
+}
+ 
 .list-unit .list-status-title {
     position: relative;
     display: table-cell;
@@ -1964,3 +1969,4 @@ pointer-events: none;
 	 }
 	 
  }*/
+
