@@ -19,7 +19,7 @@
 	font: bold 14px/20px "Poiret One";
 }
 
-.tags div [href*="Spring"] { background: #B0F2B6; margin-left: -100px !important; width: 50px !important}
+.tags div [href*="Spring"] { background: #B0F2B6; margin-left: -800px !important; width: 50px !important}
 .tags div [href*="Summer"] { background: #F0E68C; }
 .tags div [href*="Fall"] { background: #DEB887; }
 .tags div [href*="Winter"] { background: #F0FFFF; }
