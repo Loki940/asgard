@@ -1,11 +1,9 @@
 .data.licensor span, .data.studio span, .data.tags span {
-    display: block;
     font-size: 0 !important;
     line-height: 0;
 }
 
 .data.licensor a, .data.studio a, .data.tags a:not(.edit) {
-    display: block !important;
     font-size: 11px !important;
 }
 
@@ -23,5 +21,5 @@
 .tags div [href*="Fall"] { background: #DEB887; }
 .tags div [href*="Winter"] { background: #F0FFFF; }
 .tags div [href*="Later"] { background: #FDFBFC; }
-.tags div [href*="OVA"] { background: #BB93D8; }
-.tags div [href*="Special"] { background: #8AC6E0; }
+.tags div [href*="Test"] { background: #BB93D8; }
+.tags div [href*="2nd Test"] { background: #8AC6E0; }
