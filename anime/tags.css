@@ -8,7 +8,7 @@
 }
 
 .tags div a {
-	position: absolute !important;
+	position: fixed !important;
 	padding: 1px 7px 1px 7px;
 	border-radius: 3px;
 	box-shadow: 0 0 2px #000;
@@ -17,7 +17,7 @@
 	font: bold 14px/20px "Poiret One";
 }
 
-.tags div [href*="Spring"] { background: #B0F2B6; left: 810px !important; width: 50px !important; position: absolute !important;}
+.tags div [href*="Spring"] { background: #B0F2B6; left: 810px !important; width: 50px !important;}
 .tags div [href*="Summer"] { background: #F0E68C; }
 .tags div [href*="Fall"] { background: #DEB887; }
 .tags div [href*="Winter"] { background: #F0FFFF; }
