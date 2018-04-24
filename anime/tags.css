@@ -10,7 +10,7 @@
 }
 
 .tags div a {
-	position: absolue !important;
+	position: absolute !important;
 	padding: 0px 5px 0px 5px;
 	border-radius: 3px;
 	box-shadow: 0 0 2px #000;
@@ -19,10 +19,10 @@
 	font: bold 14px/20px "Poiret One";
 }
 
-.tags div [href*="Spring"] { background: #B0F2B6; right: 1050px !important; bottom: 5px !important; width: 50px !important; position: absolute !important;}
-.tags div [href*="Summer"] { background: #F0E68C; }
-.tags div [href*="Fall"] { background: #DEB887; }
-.tags div [href*="Winter"] { background: #F0FFFF; }
-.tags div [href*="Later"] { background: #FDFBFC; }
-.tags div [href*="Test"] { background: #BB93D8; }
-.tags div [href*="Tost"] { background: #8AC6E0; }
+.tags div [href*="Spring"] { background: #B0F2B6; right: 1050px !important; bottom: 2px !important; width: 50px !important;}
+.tags div [href*="Summer"] { background: #F0E68C; right: 1050px !important; bottom: 2px !important; width: 50px !important;}
+.tags div [href*="Fall"] { background: #DEB887; right: 1050px !important; bottom: 2px !important; width: 50px !important;}
+.tags div [href*="Winter"] { background: #F0FFFF; right: 1050px !important; bottom: 2px !important; width: 50px !important;}
+.tags div [href*="Later"] { background: #FDFBFC; right: 1050px !important; bottom: 2px !important; width: 50px !important;}
+.tags div [href*="Mature"] { background: #BB93D8; right: 20px !important; width: 50px !important;}
+.tags div [href*="Isekai"] { background: #8AC6E0; }
