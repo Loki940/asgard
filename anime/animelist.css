@@ -1285,12 +1285,12 @@ overflow: hidden;	}
 
 .list-table .list-table-data .data.title .link {
     font-size: 16px !important;
- text-decoration: none !important;
-font-family: 'PT Sans Narrow', sans-serif;
-font-weight:100 !important;
-transition: all 0.3s ease 0s;
-color: #fff;
-
+	text-decoration: none !important;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-weight:100 !important;
+	transition: all 0.3s ease 0s;
+	color: #fff;
+	margin-top: -12px;
 }
 
 .list-table .list-table-data:hover .data.title .link {
@@ -1305,7 +1305,7 @@ color: #fff;
     font-size: 0.9em !important;
 	margin-left:5px;
 	display:inline-block;
-	margin-top:10px !important;
+	margin-top:-1px !important;
 	position:absolute;
 }
 
