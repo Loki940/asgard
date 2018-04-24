@@ -8,5 +8,21 @@
 .data.licensor a, .data.studio a, .data.tags a:not(.edit) {
     display: block !important;
     font-size: 11px !important;
-    padding-top: 10px !important;
 }
+
+.tags div a {
+	padding: 1px 7px 1px 7px;
+	border-radius: 3px;
+	box-shadow: 0 0 2px #000;
+	
+	color: #000;
+	font: bold 14px/20px "Poiret One";
+}
+
+.tags div [href*="Spring"] { background: #B0F2B6; margin-left: -100px !important;}
+.tags div [href*="Summer"] { background: #F0E68C; }
+.tags div [href*="Fall"] { background: #DEB887; }
+.tags div [href*="Winter"] { background: #F0FFFF; }
+.tags div [href*="Later"] { background: #FDFBFC; }
+.tags div [href*="OVA"] { background: #BB93D8; }
+.tags div [href*="Special"] { background: #8AC6E0; }
