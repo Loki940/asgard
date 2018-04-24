@@ -16,12 +16,13 @@
 	
 	color: #000;
 	font: bold 14px/20px "Poiret One";
+	margin: 1px
 }
 
-.tags div [href*="Spring"] { background: #B0F2B6; right: 1050px !important; margin-top: 22px !important; width: 50px !important; position: absolute !important;}
-.tags div [href*="Summer"] { background: #F0E68C; right: 1050px !important; margin-top: 22px !important; width: 50px !important; position: absolute !important;}
-.tags div [href*="Fall"] { background: #DEB887; right: 1050px !important; margin-top: 22px !important; width: 50px !important; position: absolute !important;}
-.tags div [href*="Winter"] { background: #F0FFFF; right: 1050px !important; margin-top: 22px !important; width: 50px !important; position: absolute !important;}
-.tags div [href*="Later"] { background: #FDFBFC; right: 1050px !important; margin-top: 22px !important; width: 50px !important; position: absolute !important;}
-.tags div [href*="Mature"] { background: #BB93D8; margin-left: 63px !important; width: 50px !important;}
-.tags div [href*="Isekai"] { background: #8AC6E0; margin-left: 63px !important; width: 50px !important;}
+.tags div [href*="Spring"] { background: #B0F2B6; right: 908px !important; margin-top: 22px !important; width: 50px !important; position: absolute !important;}
+.tags div [href*="Summer"] { background: #F0E68C; right: 908px !important; margin-top: 22px !important; width: 50px !important; position: absolute !important;}
+.tags div [href*="Fall"] { background: #DEB887; right: 908px !important; margin-top: 22px !important; width: 50px !important; position: absolute !important;}
+.tags div [href*="Winter"] { background: #F0FFFF; right: 908px !important; margin-top: 22px !important; width: 50px !important; position: absolute !important;}
+.tags div [href*="Later"] { background: #FDFBFC; right: 908px !important; margin-top: 22px !important; width: 50px !important; position: absolute !important;}
+.tags div [href*="Mature"] { background: #BB93D8; margin-left: 87px !important; width: 50px !important;}
+.tags div [href*="Isekai"] { background: #8AC6E0; margin-left: 87px !important; width: 50px !important;}

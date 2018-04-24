@@ -846,7 +846,7 @@ background-color: #9B9B9B;}
  */
  
 .list-item {
-	height: 50px !important;
+	height: 52px !important;
 }
  
 .list-unit .list-status-title {
@@ -1417,7 +1417,6 @@ height: 15px;
 /* animation */
 	transition: opacity .3s linear, margin-left .5s ease, transform 1s ease-in-out;
 	z-index: 6;
-	position:absolute !important;
 }
 
 .list-table .list-table-data .data.tags span:after {
