@@ -1,1 +1,6 @@
-.data.tags span:nth-of-type(2) { position: relative; right: 4px; font-size: 0px !important}
+.data.licensor span, .data.studio span, .data.tags span {
+    display: block;
+    padding: 1px 0;
+    font-size: 0 !important;
+    line-height: 0;
+}
