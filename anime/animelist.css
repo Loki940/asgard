@@ -1434,7 +1434,6 @@ pointer-events: none;
  opacity: 1;
  padding:5px;
  box-sizing: border-box;
- right: calc( 50% + 510px);
  transition: opacity .3s linear, margin-left .5s ease, transform 1s ease-in-out;
 
 }
