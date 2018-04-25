@@ -1,7 +1,7 @@
 :root {
-    --shade1: #607d8b;
-    --shade2: #78909c;
-    --shade3: #90a4ae;
+    --shade1: #212121;
+    --shade2: #2d2d2d;
+    --shade3: #3a3a3a;
 }
 .cover-block::before {
     content: "Loki940" !important;
@@ -78,6 +78,7 @@ a {
     font-size: 16px;
     margin-right: 10px;
     text-align: right;
+	color: white;
 }
 .header .header-menu .header-info {
     font-size: 1em;
@@ -462,9 +463,9 @@ a {
 }
 .list-unit::after {
     background: var(--shade1) none repeat scroll 0 0 !important;
-    border-radius: 0 0 25px 25px !important;
+    border-radius: 0 0 5px 5px !important;
     border-top: 1px solid white !important;
-    content: "MyAnimeList.net is a property of MyAnimeList, LLC. ©2015 All Rights Reserved.";
+    content: "MyAnimeList.net is a property of MyAnimeList, LLC. ©2015 All Rights Reserved. Base by iSayChris - Edit by Loki940 with Valerio's help";
     display: block !important;
     margin-bottom: 25px;
     padding: 20px !important;
@@ -653,9 +654,17 @@ a {
     word-wrap: break-word;
 }
 .list-table .list-table-data .data.title .link {
-    font-size: 1.1em;
     font-weight: normal;
+	background: var(--shade1) none repeat scroll 0 0 !important;
+	border-radius: 5px;
+	padding: 4px 7px 4px 7px;
+	font-size: 0.85em !important;
 }
+.list-table .list-table-data:hover .data.title {
+	background: #2db039 none repeat scroll 0 0 !important;
+}
+
+
 .list-table .list-table-data .data.title .rewatching, .list-table .list-table-data .data.title .rereading, .list-table .list-table-data .data.title .content-status {
     background: var(--shade1) none repeat scroll 0 0 !important;
     border-radius: 5px;
