@@ -660,7 +660,7 @@ a {
 	padding: 4px 7px 4px 7px;
 	font-size: 0.85em !important;
 }
-.list-table .list-table-data:hover .data.title {
+.list-table .list-table-data:hover .data.title .link {
 	background: #2db039 none repeat scroll 0 0 !important;
 }
 
