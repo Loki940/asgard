@@ -46,9 +46,7 @@
 	display: inline-block;
 	width: auto;
 }
-.data.tags div a {
-	margin: 1px 2px 1px !important; /* Changes margin from tags */
-}
+
 
 .tags div [href*="Spring"],
 .tags div [href*="Summer"],
@@ -56,10 +54,10 @@
 .tags div [href*="Winter"],
 .tags div [href*="Later"]
 {
-	top: 60%;
+	top: 50%;
 	right: 907px !important; /* Slight reposition to retain original position */
 	border-radius: 0px !important;
-	margin: 0 !important;
+	margin: 4px !important;
 }
 
 .tags div [href*="Spring"] { background: #009933; width: 50px !important; position: absolute !important;}

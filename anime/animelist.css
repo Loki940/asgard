@@ -1294,11 +1294,11 @@ overflow: hidden;	}
 	margin-top: -12px;
 }
 
-.list-table .list-table-data:hover .data.title .link {
+/*.list-table .list-table-data:hover .data.title .link {
   letter-spacing: 0.5px;
   transition: all 0.3s ease 0s;
   color: #fff !important;
-}
+}*/
   
 .list-table .list-table-data .data.title .rewatching, .list-table .list-table-data .data.title .rereading, .list-table .list-table-data .data.title .content-status {
     text-shadow: 0 0 2px #1a1aff, 0 0 1px #1a1aff, 1px 1px 7px #1a1aff, 0 0 0 #1a1aff !important;
