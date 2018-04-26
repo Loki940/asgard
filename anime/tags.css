@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+
 .data.licensor span, .data.studio span, .data.tags span {
 	display: block;
     font-size: 0 !important;
@@ -6,7 +8,8 @@
 
 .data.licensor a, .data.studio a, .data.tags a:not(.edit) {
 	display: block !important;
-    font-size: 9px !important;
+    font-size: 9px;
+	font-family: Quicksand !important;
 	text-shadow: 0 0 2px Black !important;
 }
 
@@ -71,5 +74,5 @@
 .tags div [href*="Fantasy"]:hover { background: #ff80ff; width: 50px !important;}
 .tags div [href*="Slice%20of%20Life"] { background: #ccff99; width: 50px !important;}
 .tags div [href*="Slice%20of%20Life"]:hover { background: #bfff80; width: 50px !important;}
-.tags div [href*="Supernatural"] { background: #990000; width: 50px !important;}
-.tags div [href*="Supernatural"]:hover {background: #800000; width: 50px !important;}
+.tags div [href*="Supernatural"] { background: #990000; width: 50px !important; font-size: 8px !important;}
+.tags div [href*="Supernatural"]:hover {background: #800000; width: 50px !important; font-size: 8px !important;}
