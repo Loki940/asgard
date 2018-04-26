@@ -6,8 +6,8 @@
 
 .data.licensor a, .data.studio a, .data.tags a:not(.edit) {
 	display: block !important;
-    font-size: 10px !important;
-	text-shadow: 0 0 1px Black !important;
+    font-size: 9px !important;
+	text-shadow: 0 0 2px Black !important;
 }
 
 .tags div a {
