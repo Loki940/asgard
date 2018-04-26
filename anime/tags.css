@@ -56,7 +56,7 @@
 .tags div [href*="Winter"],
 .tags div [href*="Later"]
 {
-	top: 50%;
+	top: 60%;
 	right: 907px !important; /* Slight reposition to retain original position */
 	border-radius: 0px !important;
 	margin: 0 !important;
