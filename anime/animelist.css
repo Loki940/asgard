@@ -733,42 +733,42 @@ height: 15px;}
 .status-menu-container .status-menu .status-button.watching:before, .status-menu-container .status-menu .status-button.reading:before {
 content: "\f152\00a0\00a0";
 float: left;
-font-size: 1.5em;
+font-size: 11px;
 font-family: 'FontAwesome' !important;
 }
 
 .status-menu-container .status-menu .status-button.completed:before {
 content: "\f05d\00a0\00a0";
 float: left;
-font-size: 1.5em;
+font-size: 11px;
 font-family: 'FontAwesome' !important;
 }
 
 .status-menu-container .status-menu .status-button.onhold:before {
 content: "\f017\00a0\00a0";
 float: left;
-font-size: 1.5em;
+font-size: 11px;
 font-family: 'FontAwesome' !important;
 }
 
 .status-menu-container .status-menu .status-button.plantowatch:before, .status-menu-container .status-menu .status-button.plantoread:before {
 content: "\f073\00a0\00a0";
 float: left;
-font-size: 1.5em;
+font-size: 11px;
 font-family: 'FontAwesome' !important;
 }
 
 .status-menu-container .status-menu .status-button.dropped:before {
 content: "\f00d\00a0\00a0";
 float: left;
-font-size: 1.5em;
+font-size: 11px;
 font-family: 'FontAwesome' !important;
 }
 
 .status-menu-container .status-menu .status-button.all_anime:before {
 content: "\f022\00a0";
 float: left;
-font-size: 1.5em;
+font-size: 11px;
 font-family: 'FontAwesome' !important;
 }
 
@@ -1622,7 +1622,7 @@ font-family: 'FontAwesome' !important;}
 
 
 .list-unit .loading-space {
-     background-color:rgba(0, 0, 0, .3);
+     background-color: #1a1a1a;
      color: #fff !important;
      display: inline-block;
      margin: auto;
