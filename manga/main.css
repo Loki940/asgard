@@ -657,8 +657,8 @@ a {
     font-weight: normal;
 	background: var(--shade1) none repeat scroll 0 0 !important;
 	border-radius: 5px;
-	padding: 4px 7px 4px 7px;
-	font-size: 0.85em !important;
+	padding: 5px 7px 5px 7px;
+	font-size: 0.9em !important;
 }
 .list-table .list-table-data:hover .data.title .link {
 	background: #A7053C none repeat scroll 0 0 !important;
@@ -670,7 +670,6 @@ a {
     border-radius: 5px;
     color: white;
     font-size: 0.9em;
-    margin-left: 10px;
     padding: 5px;
 }
 .list-table .list-table-data .data.score .link {
