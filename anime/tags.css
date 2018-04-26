@@ -6,7 +6,8 @@
 
 .data.licensor a, .data.studio a, .data.tags a:not(.edit) {
 	display: block !important;
-    font-size: 9px !important;
+    font-size: 10px !important;
+	text-shadow: 0 0 1px Black !important;
 }
 
 .tags div a {
@@ -58,6 +59,11 @@
 .tags div [href*="Fall"] { background: #DEB887; width: 50px !important; position: absolute !important;}
 .tags div [href*="Winter"] { background: #F0FFFF; width: 50px !important; position: absolute !important;}
 .tags div [href*="Later"] { background: #FDFBFC; width: 50px !important; position: absolute !important;}
-.tags div [href*="Mature"] { background: #BB93D8;}
-.tags div [href*="Mature"]:hover { background: #FFFFFF; width: 50px !important;}
-.tags div [href*="Isekai"] { background: #8AC6E0;}
+.tags div [href*="Mature"] { background: #660033; width: 50px !important;}
+.tags div [href*="Mature"]:hover { background: #4d0026; width: 50px !important;}
+.tags div [href*="Isekai"] { background: #aed8ea; width: 50px !important;}
+.tags div [href*="Isekai"]:hover { background: #9acee5; width: 50px !important;}
+.tags div [href*="Fantasy"] { background: #ffb3ff; width: 50px !important;}
+.tags div [href*="Fantasy"]:hover { background: #ff99ff; width: 50px !important;}
+.tags div [href*="Slice%20of%20Life"] { background: #ccff99; width: 50px !important;}
+.tags div [href*="Slice%20of%20Life"]:hover { background: #bfff80; width: 50px !important;}
