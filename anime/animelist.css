@@ -667,7 +667,7 @@ height: 15px;}
 .status-menu-container {
     width: 1000px;
     height: 40px;
-    background-color: rgba(255,255,255,.9);
+    background-color: 1a1a1a;
     border-bottom: none;
     z-index: 1;
 	margin-top:-40px;
@@ -705,7 +705,7 @@ height: 15px;}
 }
 
 .status-menu-container .status-menu .status-button.on {
-    color: #000;
+    color: white;
     font-weight: bold;
 }
 
@@ -846,7 +846,7 @@ background-color: #9B9B9B;}
  */
  
 .list-item {
-	height: 52px !important;
+	height: 60px !important;
 }
  
 .list-unit .list-status-title {
@@ -854,9 +854,8 @@ background-color: #9B9B9B;}
     display: table-cell;
     background-color: transparent;
     width: 1000px;
-   height:0px !important;
-   /*background-color:rgba(127,127,127,1);*/
-   background-color:rgba(0,0,0,.4);
+	height:0px !important;
+	background-color: #262626;
 }
 
 .list-unit .list-status-title .text {
@@ -951,7 +950,7 @@ z-index: 1 !important;
 }
 
 .list-table > tbody:nth-of-type(2n) {
-background-color: rgba(0,0,0,.4) !important;
+background-color: #2e2e2e !important;
 }
  
  /**
