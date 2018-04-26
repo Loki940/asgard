@@ -393,7 +393,7 @@ a {
 .status-menu-container .status-menu .status-button {
     color: #9b9b9b;
     display: table-cell;
-    font-family: "Helvetica neue",Helvetica,"lucida grande",tahoma,verdana,arial,sans-serif;
+    font-family: Quicksand;
     font-size: 1.6em;
     margin: 0;
     padding: 12px 0;
@@ -402,11 +402,12 @@ a {
     vertical-align: middle;
 }
 .status-menu-container .status-menu .status-button.on {
-    color: #787878;
+    color: #A7053C;
     font-weight: normal;
+	font-family: Quicksand;
 }
 .status-menu-container .status-menu .status-button::after {
-    background-color: white;
+    background-color: #A7053C;
     bottom: 0;
     content: "";
     display: block;
