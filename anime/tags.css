@@ -9,6 +9,7 @@
 .data.licensor a, .data.studio a, .data.tags a:not(.edit) {
 	display: block !important;
     font-size: 9px;
+	letter-spacing: 1px;
 	font-family: Quicksand !important;
 	text-shadow: 0 0 2px Black !important;
 }
@@ -66,13 +67,13 @@
 .tags div [href*="Fall"] { background: #DEB887; width: 50px !important; position: absolute !important;}
 .tags div [href*="Winter"] { background: #F0FFFF; width: 50px !important; position: absolute !important;}
 .tags div [href*="Later"] { background: #FDFBFC; width: 50px !important; position: absolute !important;}
-.tags div [href*="Mature"] { background: #660033; width: 60px !important;}
-.tags div [href*="Mature"]:hover { background: #4d0026; width: 60px !important;}
-.tags div [href*="Isekai"] { background: #aed8ea; width: 60px !important;}
-.tags div [href*="Isekai"]:hover { background: #85c5e0; width: 60px !important;}
-.tags div [href*="Fantasy"] { background: #ffb3ff; width: 60px !important;}
-.tags div [href*="Fantasy"]:hover { background: #ff80ff; width: 60px !important;}
-.tags div [href*="Slice%20of%20Life"] { background: #ccff99; width: 60px !important;}
-.tags div [href*="Slice%20of%20Life"]:hover { background: #bfff80; width: 60px !important;}
-.tags div [href*="Supernatural"] { background: #990000; width: 60px !important;}
-.tags div [href*="Supernatural"]:hover {background: #800000; width: 60px !important;}
+.tags div [href*="Mature"] { background: #660033; width: 68px !important;}
+.tags div [href*="Mature"]:hover { background: #4d0026; width: 68px !important;}
+.tags div [href*="Isekai"] { background: #037d79; width: 68px !important;}
+.tags div [href*="Isekai"]:hover { background: #036360; width: 68px !important;}
+.tags div [href*="Fantasy"] { background: #993333; width: 68px !important;}
+.tags div [href*="Fantasy"]:hover { background: #732626; width: 68px !important;}
+.tags div [href*="Slice%20of%20Life"] { background: #526600; width: 68px !important;}
+.tags div [href*="Slice%20of%20Life"]:hover { background: #3d4d00; width: 68px !important;}
+.tags div [href*="Supernatural"] { background: #990000; width: 68px !important;}
+.tags div [href*="Supernatural"]:hover {background: #800000; width: 68px !important;}
