@@ -854,7 +854,7 @@ background-color: #9B9B9B;}
     display: table-cell;
     background-color: transparent;
     width: 1000px;
-	height:0px !important;
+	height:120px !important;
 	background-color: #262626;
 }
 
@@ -863,17 +863,18 @@ background-color: #9B9B9B;}
     width: 1000px;
     height: 38px !important;
     font-size: 22px;
+	font-family: Quicksand;
     color: #fff;
     text-align: center;
     vertical-align: middle;
-text-align: center;
-font-weight: 500;
-letter-spacing: 0.5px;
-border:none;
-text-shadow: 0 0 2px #000, 0 0 1px #000, 1px 1px 7px #000, 0 0 0 #FFF !important;
- font-style: bold;
- background-color: transparent;
-margin-top: 60px !important;
+	text-align: center;
+	font-weight: 500;
+	letter-spacing: 0.5px;
+	border:none;
+	text-shadow: 0 0 2px #000, 0 0 1px #000, 1px 1px 7px #000, 0 0 0 #FFF !important;
+	font-style: bold;
+	background-color: transparent;
+	margin-top: 48px !important;
 }
 
 
@@ -919,7 +920,7 @@ z-index: 1 !important;
     line-height: 40px;
 	width:180px;
     right: -25px;
-	margin-top: -137px;
+	margin-top: -126px;
 	z-index: 1;
 }
 
