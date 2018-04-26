@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+
 :root {
     --shade1: #212121;
     --shade2: #2d2d2d;
@@ -5,6 +7,7 @@
 }
 .cover-block::before {
     content: "Loki940" !important;
+	font-family: Quicksand !important;
 }
 body {
     color: white;
@@ -288,14 +291,15 @@ a {
     width: 950px;
 }
 .cover-block::before {
-    background-color: rgba(0, 0, 0, 0.15) !important;
-    content: "vZangetsuha";
+    content: "Loki940";
     display: block !important;
-    font-size: 68px;
-    margin-top: 61px !important;
+    font-size: 50px;
+    margin-top: 140px !important;
+	margin-left: 370px !important;
     position: absolute;
-    text-shadow: 1px 1px 10px #000000;
+    text-shadow: 1px 1px 5px #000000;
     width: 950px !important;
+	font-family: Quicksand !important;
 }
 .cover-block .image-container {
     display: block;
@@ -669,8 +673,9 @@ a {
     background: var(--shade1) none repeat scroll 0 0 !important;
     border-radius: 5px;
     color: white;
-    font-size: 0.9em;
+    font-size: 0.7em;
     padding: 5px;
+	letter-spacing: 1px;
 }
 .list-table .list-table-data .data.score .link {
     font-size: 1.1em;
