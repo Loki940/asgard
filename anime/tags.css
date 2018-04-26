@@ -58,15 +58,15 @@
 {
 	top: 50%;
 	right: 907px !important; /* Slight reposition to retain original position */
-	
+	border-radius: 0px !important;
 	margin: 0 !important;
 }
 
-.tags div [href*="Spring"] { background: #B0F2B6; width: 50px !important; position: absolute !important;}
-.tags div [href*="Summer"] { background: #F0E68C; width: 50px !important; position: absolute !important;}
-.tags div [href*="Fall"] { background: #DEB887; width: 50px !important; position: absolute !important;}
-.tags div [href*="Winter"] { background: #F0FFFF; width: 50px !important; position: absolute !important;}
-.tags div [href*="Later"] { background: #FDFBFC; width: 50px !important; position: absolute !important;}
+.tags div [href*="Spring"] { background: #009933; width: 50px !important; position: absolute !important;}
+.tags div [href*="Summer"] { background: #e6ac00; width: 50px !important; position: absolute !important;}
+.tags div [href*="Fall"] { background: #996600; width: 50px !important; position: absolute !important;}
+.tags div [href*="Winter"] { background: #00cca3; width: 50px !important; position: absolute !important;}
+.tags div [href*="Later"] { background: #666666; width: 50px !important; position: absolute !important;}
 .tags div [href*="Mature"] { background: #660033; width: 68px !important;}
 .tags div [href*="Mature"]:hover { background: #4d0026; width: 68px !important;}
 .tags div [href*="Isekai"] { background: #037d79; width: 68px !important;}
