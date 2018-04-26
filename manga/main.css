@@ -402,9 +402,10 @@ a {
     vertical-align: middle;
 }
 .status-menu-container .status-menu .status-button.on {
-    color: #A7053C;
+    color: #A7053C !important;
     font-weight: normal;
 	font-family: Quicksand;
+	text-shadow: 0 0 2px Black;
 }
 .status-menu-container .status-menu .status-button::after {
     background-color: #A7053C;
@@ -419,6 +420,7 @@ a {
     transition-property: all;
     transition-timing-function: ease-in-out;
     width: 100%;
+	box-shadow: 0 0 2px 1px black;
 }
 .status-menu-container .status-menu .status-button.on::after, .status-menu .status-button:hover::after {
     opacity: 1;
