@@ -1292,12 +1292,12 @@ overflow: hidden;	}
 	color: #fff;
 	background-color: #1a1a1a;
 	box-shadow: 0 0 2px black;
-	top: -14px !important;
+	top: -11px !important;
 	position: relative;
 	padding: 3px 7px 3px 7px;
 	letter-spacing: 0.2px;
 	text-shadow: 0 0 2px black;
-	margin-left: -3px;
+	margin-left: 18px;
 }
 
 /*.list-table .list-table-data:hover .data.title .link {
@@ -1408,10 +1408,10 @@ height: 15px;
 .list-table .list-table-data .data.number {
 	background: #1a1a1a;
 	text-shadow: 0 0 2px black;
-	padding: 5px 1px 5px 1px !important;
+	padding: 5px 1px 5px 3px !important;
 	margin: 5px auto;
 	position: absolute;
-	writing-mode: sideways-rl;
+	writing-mode: vertical-rl;
 }
 
 
@@ -1559,8 +1559,8 @@ transition: .3s ease-out;}
 .list-table .list-table-data .data.status.completed:before, .list-table .list-table-data .data.status.reading:before, .list-table .list-table-data .data.status.watching:before,.list-table .list-table-data .data.status.plantoread:before, .list-table .list-table-data .data.status.plantowatch:before,.list-table .list-table-data .data.status.onhold:before,.list-table .list-table-data .data.status.dropped:before {
 display: inline-block !important;
 position: absolute;
-margin-left:6px;
-margin-top:-20px;
+margin-left:2px;
+margin-top:-24px;
 box-shadow: 0 0 2px 1px black;
 z-index: 100 !important;
 content: "";
@@ -1568,6 +1568,7 @@ pointer-events: none;
 opacity: 0;
 text-align:center !important;
 font:bold 11px "Quicksand";
+height:47px;
 }
 
 .list-table .list-table-data:hover .data.status.completed:before, .list-table .list-table-data:hover .data.status.reading:before, .list-table .list-table-data:hover .data.status.watching:before,.list-table .list-table-data:hover .data.status.plantoread:before, .list-table .list-table-data:hover .data.status.plantowatch:before,.list-table .list-table-data:hover .data.status.onhold:before,.list-table .list-table-data:hover .data.status.dropped:before {
@@ -1587,19 +1588,19 @@ font:bold 11px "Quicksand";
  }
 
 .list-table .list-table-data:hover .data.status.completed:before
-{ background-color: #3366cc; padding: 20px 6px 20px 6px;}
+{ background-color: #3366cc; padding: 0px 3px 0px 3px; content:"Compl."; writing-mode: vertical-lr;}
 
 .list-table .list-table-data:hover .data.status.watching:before, .list-table .list-table-data:hover .data.status.reading:before
-{ background-color: #009933; padding: 6px 2px 6px 2px; content:"Watch."; writing-mode: sideways-lr;}
+{ background-color: #009933; padding: 0px 3px 0px 3px; content:"Watch."; writing-mode: vertical-lr;}
 
 .list-table .list-table-data:hover .data.status.plantowatch:before, .list-table .list-table-data:hover .data.status.plantoread:before
-{ background-color: #ffcc66; padding: 20px 6px 20px 6px;}
+{ background-color: #ffcc66; padding: 0px 3px 0px 3px; content:"PlanTo."; writing-mode: vertical-lr;}
 
 .list-table .list-table-data:hover .data.status.onhold:before
-{ background-color: #b33c00; padding: 20px 6px 20px 6px;}
+{ background-color: #b33c00; padding: 0px 3px 0px 3px; content:"OnHold"; writing-mode: vertical-lr;}
 
 .list-table .list-table-data:hover .data.status.dropped:before
-{ background-color: #404040; padding: 20px 6px 20px 6px;}
+{ background-color: #404040; padding: 0px 3px 0px 3px; content:"Dropped"; writing-mode: vertical-lr; font-size: 10px !important;}
 
 
 
