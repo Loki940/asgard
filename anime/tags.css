@@ -20,7 +20,7 @@
 	box-shadow: 0 0 2px #000;
 	
 	color: #000;
-	font: bold 14px/20px "Poiret One";
+	font: bold 14px/17px "Quicksand";
 	margin: 1px
 }
 
@@ -55,9 +55,9 @@
 .tags div [href*="Later"]
 {
 	top: 50%;
-	right: 907px !important; /* Slight reposition to retain original position */
+	right: 905px !important; /* Slight reposition to retain original position */
 	border-radius: 0px !important;
-	margin: 4px !important;
+	margin-top: 2px !important;
 }
 
 .tags div [href*="Spring"] { background: #009933; width: 50px !important; position: absolute !important;}

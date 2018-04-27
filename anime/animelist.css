@@ -846,7 +846,7 @@ background-color: #9B9B9B;}
  */
  
 .list-item {
-	height: 60px !important;
+	height: 55px !important;
 }
  
 .list-unit .list-status-title {
@@ -1277,7 +1277,6 @@ margin-left:-30px;
 
 .list-table .list-table-data .data.title a {
 line-height:35px !important;
-display: inline-block;	
 min-width:0;
 max-width: 450px; /* the width of your titles */
 white-space: nowrap;
@@ -1285,13 +1284,20 @@ text-overflow: ellipsis;
 overflow: hidden;	}
 
 .list-table .list-table-data .data.title .link {
-    font-size: 15px !important;
+    font-size: 12px !important;
 	text-decoration: none !important;
-	font-family: 'PT Sans Narrow', sans-serif;
-	font-weight:100 !important;
+	font-family: Quicksand;
+	font-weight: bold !important;
 	transition: all 0.3s ease 0s;
 	color: #fff;
-	margin-top: -12px;
+	background-color: #1a1a1a;
+	box-shadow: 0 0 2px black;
+	top: -14px !important;
+	position: relative;
+	padding: 3px 7px 3px 7px;
+	letter-spacing: 0.2px;
+	text-shadow: 0 0 2px black;
+	margin-left: -3px;
 }
 
 /*.list-table .list-table-data:hover .data.title .link {
@@ -1400,12 +1406,15 @@ height: 15px;
 
 /* */
 .list-table .list-table-data .data.number {
-	width:2% !important;
+	background: #1a1a1a;
+	text-shadow: 0 0 2px black;
+	padding: 5px 1px 5px 1px !important;
+	margin: 5px auto;
+	position: absolute;
+	writing-mode: sideways-rl;
 }
 
-.list-table .list-table-data:hover .data.number {
-	opacity:0;
-}
+
 
 /* review section */
 
@@ -1558,6 +1567,7 @@ content: "";
 pointer-events: none;
 opacity: 0;
 text-align:center !important;
+font:bold 11px "Quicksand";
 }
 
 .list-table .list-table-data:hover .data.status.completed:before, .list-table .list-table-data:hover .data.status.reading:before, .list-table .list-table-data:hover .data.status.watching:before,.list-table .list-table-data:hover .data.status.plantoread:before, .list-table .list-table-data:hover .data.status.plantowatch:before,.list-table .list-table-data:hover .data.status.onhold:before,.list-table .list-table-data:hover .data.status.dropped:before {
@@ -1576,11 +1586,11 @@ text-align:center !important;
     transition-timing-function: ease-in-out;
  }
 
-.list-table .list-table-data:hover .data.status.completed:before {
+.list-table .list-table-data:hover .data.status.completed:before
 { background-color: #3366cc; padding: 20px 6px 20px 6px;}
 
 .list-table .list-table-data:hover .data.status.watching:before, .list-table .list-table-data:hover .data.status.reading:before
-{ background-color: #009933; padding: 20px 6px 20px 6px;}
+{ background-color: #009933; padding: 6px 2px 6px 2px; content:"Watch."; writing-mode: sideways-lr;}
 
 .list-table .list-table-data:hover .data.status.plantowatch:before, .list-table .list-table-data:hover .data.status.plantoread:before
 { background-color: #ffcc66; padding: 20px 6px 20px 6px;}
