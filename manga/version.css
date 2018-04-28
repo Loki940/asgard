@@ -1,5 +1,11 @@
 /* TOTAL VOLUMES REMOVING */
 
+.data.tags .edit {display: none !important}
+.header-title.tags {font-size: 0;}
+.header-title.tags:before {content: "Version"; font-size: 12px !important;}
+.data.tags a {pointer-events: none !important; background-color: #212121; padding: 5px 10px 5px 10px; border-radius: 5px;}
+.data.volume div {padding: 5px; background: #212121; max-width: 60px; margin-left: 11px !important; border-radius: 5px;}
+
 .data.volume {
 	font-size: 0;
 	line-height: 0;
@@ -50,6 +56,31 @@
 /* TATE NO YUUSHA */
 .data.volume div[class$="67617"] span:first-child:after {
 	content: " / 1";
+}
+
+/* IKAI SHINK TO NO REUNION */
+.data.volume div[class$="82789"] span:first-child:after {
+	content: " / 2";
+}
+
+/* MAGIKA NO KENSHI TO BASILEUS */
+.data.volume div[class$="56133"] span:first-child:after {
+	content: " / 12";
+}
+
+/* SLAVE ELF WIFE */
+.data.volume div[class$="103707"] span:first-child:after {
+	content: " / 1";
+}
+
+/* MASOU GAKUEN HXH */
+.data.volume div[class$="67329"] span:first-child:after {
+	content: " / 10";
+}
+
+/* MONDAIJI-TACHI */
+.data.volume div[class$="45855"] span:first-child:after {
+	content: " / 12";
 }
 
 
