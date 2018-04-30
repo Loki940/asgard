@@ -25,7 +25,7 @@
 
 /* DARWIN'S GAME */
 .data.volume div[class$="48881"] span:first-child:after {
-	content: " / 11";
+	content: " / 13";
 }
 
 /* DANMACHI */
@@ -35,7 +35,7 @@
 
 /* NO GAME NO LIFE */
 .data.volume div[class$="48399"] span:first-child:after {
-	content: " / 4";
+	content: " / 6";
 }
 
 /* TRINITY SEVEN */
@@ -83,5 +83,9 @@
 	content: " / 12";
 }
 
+/* ARIFURETA */
+ .data.volume div[class$="88923"] span:first-child:after {
+	content: " / 1";
+ }
 
 
