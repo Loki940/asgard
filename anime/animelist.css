@@ -1300,6 +1300,8 @@ overflow: hidden;	}
 	margin-left: 18px;
 }
 
+.data.title .link:hover {text-shadow: 0 0 2px white !important;}
+
 /*.list-table .list-table-data:hover .data.title .link {
   letter-spacing: 0.5px;
   transition: all 0.3s ease 0s;
@@ -1307,13 +1309,17 @@ overflow: hidden;	}
 }*/
   
 .list-table .list-table-data .data.title .rewatching, .list-table .list-table-data .data.title .rereading, .list-table .list-table-data .data.title .content-status {
-    text-shadow: 0 0 2px #1a1aff, 0 0 1px #1a1aff, 1px 1px 7px #1a1aff, 0 0 0 #1a1aff !important;
 	color: #fff !important;
-    font-size: 0.9em !important;
-	margin-left:5px;
-	display:inline-block;
-	margin-top:-1px !important;
-	position:absolute;
+	font-size: 0.9em !important;
+	margin-left: 5px;
+	display: inline-block;
+	margin-top: -2px !important;
+	position: absolute;
+	text-shadow: 0 0 1px white;
+	background-color: #0f0f0f;
+	padding: 0 5px 0 5px;
+	border-radius: 2px;
+	box-shadow: 0 0 2px 0.5px black;
 }
 
 .list-table .list-table-data .data.score .link {
@@ -1321,19 +1327,20 @@ overflow: hidden;	}
     font-weight: bold;
 }
 
-.list-table .list-table-data .data.score {
+.data.score .link {
 width: 21px !important;
 height: 21px !important;
-background-image: url(http://i.imgur.com/udzEw6G.png);
-background-repeat: no-repeat;
-background-size:contain;
-background-position: 50% 50%;
+background: black;
+line-height: 21px !important;
+display: inline-block !important;
+padding: 1px 4px 1px 4px;
+background-color: #1a1a1a;
+border-radius: 4px;
+box-shadow: 0 0 2px 0.5px black;
+text-shadow: 0 0 1px white;
 }
 
-.list-table .list-table-data:hover .data.score {
-	background-image: url(http://i.imgur.com/EQcGOeO.png);
-	text-shadow: 0 0 2px #000, 0 0 1px #000, 1px 1px 4px #000, 0 0 0 #000;
-}
+.data.score .link:hover {text-decoration: none !important;}
 
 .list-table .list-table-data .data.score a {color:#fff !important;}
 
@@ -1416,6 +1423,7 @@ height: 15px;
 	padding: 0 3px !important;
 	transform-origin: left top;
 	transform: rotate(90deg) translateY(-20px);
+	line-height: 20px !important;
 }
 
 
