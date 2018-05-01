@@ -845,7 +845,7 @@ background-color: #9B9B9B;}
  * List Container - List Status Title (with Stats)
  */
  
-.list-item {
+.list-table-data {
 	height: 55px !important;
 }
  
@@ -1415,7 +1415,7 @@ height: 15px;
 	height: 20px !important;
 	padding: 0 3px !important;
 	transform-origin: left top;
-	transform: rotate(90deg) transformY(-20px);
+	transform: rotate(90deg) translateY(-20px);
 }
 
 
@@ -1575,7 +1575,7 @@ font:bold 11px "Quicksand";
 height:20px !important;
 width: 40px;
 transform-origin: left top;
-transform: rotate(90deg) transformY(-20px);
+transform: rotate(90deg) translateY(-20px);
 line-height: 20px !important;
 }
 
