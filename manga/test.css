@@ -1,0 +1,8 @@
+.data.chapter, .data.volume {font-size: 0; line-height: 0;}
+
+.data.chapter span {margin-left: 90px; position: absolute;} /*Moving chapter data to Volumes column*/
+
+.data.volume div[class$="56743"] .link, .completed ~ .data.volume span, [class^="icon-add-"], .data.volume span:after, .data.volume .link:after {font-size: 11px;}
+.data.chapter div[class$="56743"] [class^="icon-add-"] {display: none;}
+.data.chapter div[class$="48881"] .link, .completed ~ .data.chapter span, [class^="icon-add-"], .data.chapter span:after, .data.chapter .link:after {font-size: 11px;}
+.data.volume div[class$="48881"] [class^="icon-add-"] {display: none;}
