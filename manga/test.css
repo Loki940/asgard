@@ -1,8 +1,113 @@
+@import url (https://fonts.googleapis.com/css?family=Quicksand);
+
+:root {
+  --shade1: #1a1a1a;
+  --shade2: #333333;
+  --shade3: #404040;
+  
+}
+/**Body**/
+.list-table-data {height: 44px !important;}
+/* Coloration */
+a {color: white;}
+.list-container {background: red;}
+.list-status-title .text {background-color: var(--shade1) !important;; height: 60px !important; font-family: Quicksand !important;}
+.list-table-header .header-title, .list-table > tbody:nth-of-type(2n+1) {background-color: var(--shade2) !important;}
+.list-table {background-color: var(--shade3)}
+.data.number,
+.data.type, 
+.list-table 
+.list-table-header 
+.header-title 
+.link.sort, 
+.header-title.number, 
+.header-title.tags 
+{color: white;}
+
+/* Borders */
+.list-table,.list-table .list-table-data .data, .list-table .list-table-header .header-title {border: none}
+
+/** Type **/
+.data.type {
+	font-size: 10px;
+	position: relative;
+	bottom: 11px;
+}
+/* Format Tag */
+.tags div [href*="P"], .tags [href*="D"] {
+	position: relative;
+	top: 8px;
+	right: 92px;
+	font-size: 9px;
+	background-color: #4d4d4d;
+	padding: 1px 4px 1px 4px;
+  border-radius: 2px;
+  box-shadow: 0 0 2px black;
+}
+
+.tags div [href*="P"]:hover, .tags [href*="D"]:hover {
+  text-decoration: none !important;
+  color: red;
+}
+
+/** Progression **/
+/* Suppression of "/ -" */
 .data.chapter, .data.volume {font-size: 0; line-height: 0;}
 
-.data.chapter span {margin-left: 90px; position: absolute;} /*Moving chapter data to Volumes column*/
+/* Fix to Previous Code - Should be incoorporated */
+.data.volume div[class$="56743"] .link, .data.volume span:only-of-type, [class^="icon-add-"], .data.volume span:after, .data.volume .link:after { font-size: 11px; line-height: 1; }
+.data.chapter div[class$="48881"] .link, .data.chapter span:only-of-type, [class^="icon-add-"], .data.chapter span:after, .data.chapter .link:after { font-size: 11px; line-height: 1; }
 
-.data.volume div[class$="56743"] .link, .completed ~ .data.volume span, [class^="icon-add-"], .data.volume span:after, .data.volume .link:after {font-size: 11px;}
-.data.chapter div[class$="56743"] [class^="icon-add-"] {display: none;}
-.data.chapter div[class$="48881"] .link, .completed ~ .data.chapter span, [class^="icon-add-"], .data.chapter span:after, .data.chapter .link:after {font-size: 11px;}
-.data.volume div[class$="48881"] [class^="icon-add-"] {display: none;}
+/* Combine Chapters/Volumes Columns */
+.header-title.chapters {
+	width: 0 !important;
+	padding: 0;
+	background-image: none !important;
+}
+.header-title.chapters a {
+	display: none !important;
+}
+.header-title.volumes a {
+	font-size: 0 !important;
+}
+.header-title.volumes a:before {
+	content: "Progression";
+	font-size: 11px;
+  color: white;
+}
+
+/* Reposition chapter/volume contents */
+.data.chapter div {
+	position: absolute; width: 92px; /* Repositions chapter column */
+	display: flex;
+	height: 13px;
+	margin-top: -14px;
+	text-align: left;
+}
+.data.volume div {
+	display: flex;
+	height: 13px;
+	margin-top: 16px;
+	text-align: center;
+}
+
+.data.chapter span, .data.volume span {
+	order: 1;
+}
+[class^="icon-add-"] {
+	margin-right: 3px;
+}
+
+/* Add Chapter/Volume Prefixes */
+.data.volume div:before, .data.chapter div:before {
+	display: inline-block;
+	width: 50px;
+	
+	color: #787878;
+	font-size: 11px;
+	line-height: 1;
+}
+.data.volume div:before { content: "Volume"; } 
+.data.chapter div:before { content: "Chapter"; }
+
+.tags .edit {display: none !important;}
