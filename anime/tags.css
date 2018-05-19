@@ -8,20 +8,19 @@
 
 .data.licensor a, .data.studio a, .data.tags a:not(.edit) {
 	display: block !important;
-    font-size: 9px;
+    font-size: 8px;
 	letter-spacing: 1px;
 	font-family: Quicksand !important;
-	text-shadow: 0 0 2px Black !important;
 }
 
 .tags div a {
 	padding: 0px 5px 0px 5px;
-	border-radius: 3px;
-	box-shadow: 0 0 2px #000;
+	border-radius: 0px;
+	box-shadow: 0 0 2px 0.5px #151515;
 	
 	color: #000;
 	font: bold 14px/17px "Quicksand";
-	margin: 1px
+	margin: 2px
 }
 
 .tags div a:hover {
@@ -60,20 +59,29 @@
 	margin-top: 2px !important;
 }
 
+
+.tags div [href*="R"],
+.tags div [href*="S"],
+.tags div [href*="G"]{
+	background-color: #212121;
+	width: 68px !important
+}
+
+
+
+
 .tags div [href*="Spring"] { background: #009933; width: 50px !important; position: absolute !important;}
 .tags div [href*="Summer"] { background: #e6ac00; width: 50px !important; position: absolute !important;}
 .tags div [href*="Fall"] { background: #996600; width: 50px !important; position: absolute !important;}
 .tags div [href*="Winter"] { background: #00cca3; width: 50px !important; position: absolute !important;}
 .tags div [href*="Later"] { background: #666666; width: 50px !important; position: absolute !important;}
-.tags div [href*="Mature"] { background: #660033; width: 68px !important;}
-.tags div [href*="Mature"]:hover { background: #4d0026; width: 68px !important;}
-.tags div [href*="Isekai"] { background: #037d79; width: 68px !important;}
-.tags div [href*="Isekai"]:hover { background: #036360; width: 68px !important;}
-.tags div [href*="Fantasy"] { background: #993333; width: 68px !important;}
-.tags div [href*="Fantasy"]:hover { background: #732626; width: 68px !important;}
-.tags div [href*="Slice%20of%20Life"] { background: #526600; width: 68px !important;}
-.tags div [href*="Slice%20of%20Life"]:hover { background: #3d4d00; width: 68px !important;}
-.tags div [href*="Supernatural"] { background: #990000; width: 68px !important;}
-.tags div [href*="Supernatural"]:hover {background: #800000; width: 68px !important;}
-.tags div [href*="Sci-Fi"] {background: #57e0c0; width: 68px !important;}
-.tags div [href*="Sci-Fi"]:hover {background: #56bca4; width: 68px !important;}
+
+.tags div [href*="R"] { text-shadow: 0 0 2px #993366; }
+.tags div [href*="R"]:hover { background: #993366; }
+
+.tags div [href*="S"] { text-shadow: 0 0 2px #0066cc; }
+.tags div [href*="S"]:hover { background: #0066cc; }
+
+.tags div [href*="G"] { text-shadow: 0 0 2px #99cc00; }
+.tags div [href*="G"]:hover { background: #99cc00; }
+
