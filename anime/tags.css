@@ -64,11 +64,10 @@
 .tags div [href*="S"],
 .tags div [href*="G"]{
 	background-color: #212121;
-	width: 68px !important
+	width: 77px !important;
+	direction: initial;
+	text-align: left;
 }
-
-
-
 
 .tags div [href*="Spring"] { background: #009933; width: 50px !important; position: absolute !important;}
 .tags div [href*="Summer"] { background: #e6ac00; width: 50px !important; position: absolute !important;}

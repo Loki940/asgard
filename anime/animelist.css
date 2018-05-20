@@ -1434,7 +1434,7 @@ height: 15px;
 	line-height: 16px !important;
 	font-family: Segoe UI, Atilla, Arial, Helvetica, sans-serif;
 	text-align:center;
-	width:150px !important;
+	width:180px !important;
 	height:auto !important;
 /* animation */
 	transition: opacity .3s linear, margin-left .5s ease, transform 1s ease-in-out;
