@@ -74,6 +74,7 @@
 .tags div [href*="Winter"]:before,
 .tags div [href*="Later"]:before {
 	content: "\002E22";
+	font-size: 11px;
 }
 
 .tags div [href*="Spring"]:after,
@@ -82,6 +83,7 @@
 .tags div [href*="Winter"]:after,
 .tags div [href*="Later"]:after {
 		content: "\002E25";
+		font-size: 11px;
 }
 
 .tags div [href*="R"],
