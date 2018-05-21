@@ -57,8 +57,32 @@
 	right: 905px !important; /* Slight reposition to retain original position */
 	border-radius: 0px !important;
 	margin-top: 2px !important;
+	text-align: center !important;
+	background-color: rgb(25, 25, 25, 1) !important;
+}
+.tags div [href*="Spring"]:hover,
+.tags div [href*="Summer"]:hover,
+.tags div [href*="Fall"]:hover,
+.tags div [href*="Winter"]:hover,
+.tags div [href*="Later"]:hover {
+	background-color: rgb(15, 15, 15, 1) !important;
 }
 
+.tags div [href*="Spring"]:before,
+.tags div [href*="Summer"]:before,
+.tags div [href*="Fall"]:before,
+.tags div [href*="Winter"]:before,
+.tags div [href*="Later"]:before {
+	content: "\002E22";
+}
+
+.tags div [href*="Spring"]:after,
+.tags div [href*="Summer"]:after,
+.tags div [href*="Fall"]:after,
+.tags div [href*="Winter"]:after,
+.tags div [href*="Later"]:after {
+		content: "\002E25";
+}
 
 .tags div [href*="R"],
 .tags div [href*="S"],
@@ -69,11 +93,11 @@
 	text-align: left;
 }
 
-.tags div [href*="Spring"] { background: #009933; width: 50px !important; position: absolute !important;}
-.tags div [href*="Summer"] { background: #e6ac00; width: 50px !important; position: absolute !important;}
-.tags div [href*="Fall"] { background: #996600; width: 50px !important; position: absolute !important;}
-.tags div [href*="Winter"] { background: #00cca3; width: 50px !important; position: absolute !important;}
-.tags div [href*="Later"] { background: #666666; width: 50px !important; position: absolute !important;}
+.tags div [href*="Spring"] { text-shadow: 0 0 2px #009933 !important; width: 50px !important; position: absolute !important;}
+.tags div [href*="Summer"] { text-shadow: 0 0 2px #e6ac00!important; width: 50px !important; position: absolute !important;}
+.tags div [href*="Fall"] { text-shadow: 0 0 2px #996600 !important; width: 50px !important; position: absolute !important;}
+.tags div [href*="Winter"] { text-shadow: 0 0 2px #00cca3 !important; width: 50px !important; position: absolute !important;}
+.tags div [href*="Later"] { text-shadow: 0 0 2px #666666 !important; width: 50px !important; position: absolute !important;}
 
 .tags div [href*="R"] { text-shadow: 0 0 2px #993366; }
 .tags div [href*="R"]:hover { background: #993366; }
