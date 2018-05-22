@@ -68,24 +68,6 @@
 	background-color: rgb(15, 15, 15, 1) !important;
 }
 
-.tags div [href*="Spring"]:before,
-.tags div [href*="Summer"]:before,
-.tags div [href*="Fall"]:before,
-.tags div [href*="Winter"]:before,
-.tags div [href*="Later"]:before {
-	content: "\002E22";
-	font-size: 11px;
-}
-
-.tags div [href*="Spring"]:after,
-.tags div [href*="Summer"]:after,
-.tags div [href*="Fall"]:after,
-.tags div [href*="Winter"]:after,
-.tags div [href*="Later"]:after {
-		content: "\002E25";
-		font-size: 11px;
-}
-
 .tags div [href*="R"],
 .tags div [href*="S"],
 .tags div [href*="G"]{
@@ -110,3 +92,38 @@
 .tags div [href*="G"] { text-shadow: 0 0 2px #99cc00; }
 .tags div [href*="G"]:hover { background: #99cc00; }
 
+/* Tag Descriptions Basis */
+
+.tags span a:after {
+	position: absolute;
+	left: 133px;
+	top: 50%;
+	
+	width: 90px;
+	height: 45px;
+	padding: 0 5px;
+	background: #000;
+	border-radius: 2px;
+	
+	white-space: pre;
+	
+	opacity: 0;
+	pointer-events: none;
+	transform: translateY(-50%);
+	transition: all 0.3s ease;
+	z-index: 100;
+}
+.tags span a:hover:after {
+	opacity: 1;
+}
+
+/* Tag Descriptions */
+
+/* EXAMPLES */
+.tags span a[href*="R%20%7C%20R%2B%20-%20Nudity"]:after { content: "- Rated -\a 13+"; }
+.tags span a[href*="S%20%7C%20Supernatural"]:after { content: "- Setting -\a Supernatural"; }
+.tags span a[href*="G%20%7C%20Action"]:after { content: "- Genre -\a Action"; }
+.tags span a[href*="G%20%7C%20Comedy"]:after { content: "- Genre -\a Comedy"; }
+.tags span a[href*="G%20%7C%20Romance"]:after { content: "- Genre -\a Romance"; }
+.tags span a[href*="G%20%7C%20Romance"]:after { content: "- Genre -\a Romance"; }
+/* EXAMPLES */
