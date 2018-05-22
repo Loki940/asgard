@@ -98,14 +98,14 @@
 	position: absolute;
 	left: 133px;
 	top: 50%;
-	
-	width: 90px;
-	height: 45px;
+	line-height: 1;
+	width: 300px;
+	height: auto;
 	padding: 0 5px;
 	background: #000;
 	border-radius: 2px;
-	
-	white-space: pre;
+	padding: 5px;
+	white-space: pre-wrap;
 	
 	opacity: 0;
 	pointer-events: none;
@@ -120,10 +120,22 @@
 /* Tag Descriptions */
 
 /* EXAMPLES */
-.tags span a[href*="R%20%7C%20R%2B%20-%20Nudity"]:after { content: "- Rated -\a 13+"; }
-.tags span a[href*="S%20%7C%20Supernatural"]:after { content: "- Setting -\a Supernatural"; }
+.tags span a[href*="Nudity"]:after { content: "- Rating R+ : Nudity -\a Contains full nudity and/or light sexual content.\a Animes that shows skin but hide important places are *not* tagged with *Nudity* but with *Ecchi*."; }
+.tags span a[href*="Adult"]:after { content: "- Rating R+ : Adult -\a Contains both sexual content and bloody content."; }
+.tags span a[href*="Ecchi"]:after { content: "- Rating 17+ Ecchi -\a Contains light nudity (important places always hidden by smoke/hairs/hands). Can also contain light sexual content."; }
+.tags span a[href*="Bloody"]:after { content: "- Rating 17+ : Bloody -\a Contains scenes that involves torture, dismembering and death."; }
+.tags span a[href*="Mature"]:after { content: "- Rating 17+ : Mature -\a Contains light nudity and light bloody content."; }
+.tags span a[href*="13%2B"]:after { content: "- Rating 13+ -\a Doesn't countain anything nsfw." }
+
+.tags span a[href*="Modern"]:after { content: "- Setting : Modern -\a The story is set in our classic universe, in the modern era.\a If another races, or magic powers are included, the setting is Supernatural."; }
+.tags span a[href*="History"]:after { content: "- Setting : History -\a The story is set in our classic universe, in a precedant era.\a If another races or magic powers are included, the setting is Supernatural."; }
+.tags span a[href*="Future"]:after { content: "- Setting : Future -\a The story is set in our universe, but in a distant future. May include technology related powers."; }
+.tags span a[href*="Supernatural"]:after { content: "- Setting : Supernatural -\a The story is set in our universe, but usually includes another races and/or magic powers."; }
+.tags span a[href*="Fantasy"]:after { content: "- Setting : Fantasy -\a The story is set in another universe.\a If the main character(s) are from our classic universe, the setting is Isekai."; }
+.tags span a[href*="Isekai"]:after { content: "- Setting : Isekai -\a The story is set in another universe with the main character(s) being from our classic universe.\a If the main character(s) are native to this universe, the setting is Fantasy."; }
+
+
 .tags span a[href*="G%20%7C%20Action"]:after { content: "- Genre -\a Action"; }
 .tags span a[href*="G%20%7C%20Comedy"]:after { content: "- Genre -\a Comedy"; }
-.tags span a[href*="G%20%7C%20Romance"]:after { content: "- Genre -\a Romance"; }
 .tags span a[href*="G%20%7C%20Romance"]:after { content: "- Genre -\a Romance"; }
 /* EXAMPLES */
