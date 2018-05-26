@@ -283,8 +283,29 @@ body.ownlist {background: none; background-color: rgb(15, 15, 15)}
 		.data.chapter, .data.volume {font-size: 0; line-height: 0; }
 
 	/* Fix to Previous Code - Should be incoorporated */
-		.data.volume div[class$="56743"] .link, .data.volume div[class$="48881"] .link, .data.volume span:only-of-type, [class^="icon-add-"], .data.volume span:after, .data.volume .link:after { font-size: 11px; line-height: 1.4; }
-		.data.chapter div[class$="106106"] .link, .data.chapter span:only-of-type, [class^="icon-add-"], .data.chapter span:after, .data.chapter .link:after { font-size: 11px; line-height: 1.4; }
+		.data.volume div[class$="56743"] .link,
+		.data.volume div[class$="48881"] .link,
+		.data.volume div[class$="103707"] .link,
+		.data.volume div[class$="48399"] .link,
+		.data.volume div[class$="24822"] .link,
+		.data.volume div[class$="88923"] .link,
+		.data.volume div[class$="83019"] .link,
+		.data.volume div[class$="25409"] .link,
+		.data.volume div[class$="56133"] .link,
+		.data.volume div[class$="67329"] .link,
+		.data.volume div[class$="45855"] .link,
+		.data.volume div[class$="67617"] .link,
+		.data.volume span:only-of-type, 
+		[class^="icon-add-"], 
+		.data.volume span:after, .data.volume .link:after 
+		{ font-size: 11px; line-height: 1.6; }
+		
+		.data.chapter div[class$="106106"] .link, 
+		.data.chapter span:only-of-type, 
+		[class^="icon-add-"], 
+		.data.chapter span:after, 
+		.data.chapter .link:after 
+		{ font-size: 11px; line-height: 1.4; }
 		
 	/* Combine Chapters/Volumes Columns */
 		.header-title.chapters {
