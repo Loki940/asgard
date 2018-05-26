@@ -8,21 +8,61 @@
   
 }
 
+#advanced-options {background-color: rgb(20, 20, 20); color: white !important;}
+#advanced-options .advanced-options-header,#advanced-options .advanced-options-header span.description {font-weight: bold; letter-spacing: 0.5px;font-family: "Quicksand";}
+#advanced-options .btn-apply, #advanced-options .btn-clear {background-color: #EA5D5D;}
+#advanced-options .btn-apply:hover, #advanced-options .btn-clear:hover {background-color: #C14D4D;}
+
+#footer-block {background-color: rgb(15, 15, 15);}
+#copyright:after {content: "\a Style by Valerio-Lyndon and Loki940"; white-space: pre-wrap; font-size: 9px; font-family: "Quicksand"; letter-spacing: 0.2px;}
+
+body.ownlist {background: none; background-color: rgb(15, 15, 15)}
+.list-unit .list-stats {width: 1050px; background-color: rgb(50, 50, 50)}
+/* Container */
+
+.cover-block .image-container:hover .btn-list-setting {margin-right: -24px;}
+
+.header .header-title {left: 1%; z-index: 50;}
+.header .header-menu {right: 1%;}
+.header {position: absolute; width: 100%;}
+.cover-block .image-container img { 
+	max-height: 291px;
+	margin-left: 85px;
+	float: right;
+
+}
+.list-container {border-color: rgb(25, 25, 25); box-shadow: 0 0 2px 1px black;}
+.cover-block .image-container {
+	top: 50px;
+	width: 1050px; 
+	position:absolute;
+	right: 4px;
+	background-color: rgb(27, 27, 27);
+	padding-bottom: 0px;
+	z-index: 0;
+}
+
+
+
+.list-unit { margin-top: 357px; z-index: 50; }
+.status-menu-container { background-color: rgb(15, 15, 15); border-bottom: none;}
 
 /************/
 /*   Body   */
 /************/
 
-	.status-menu-container {z-index: 500 !important;}
+	.status-menu-container {z-index: 500 !important; position: fixed; top: 0; padding-bottom: 5px;}
 	.list-table-data {height: 44px !important;}
+.list-unit, .list-unit .list-status-title, .list-unit .list-status-title .text { width: 1050px;}
 	
 	/* Coloration */
 		a {color: white;}
-		.list-container {background: red;}
+		.list-container {background: rgb(15, 15, 15);}
 		.list-status-title .text {background-color: var(--shade1) !important;; height: 60px !important; font-family: Quicksand !important;}
 		.list-table-header .header-title, .list-table > tbody:nth-of-type(2n+1) {background-color: var(--shade2) !important;}
 		.list-table {background-color: var(--shade3)}
-		.data.number,
+		#copyright,
+    .data.number,
 		.data.type, 
 		.list-table 
 		.list-table-header 
@@ -31,9 +71,11 @@
 		.header-title.number, 
 		.header-title.tags,
 		.td1.borderRBL,
+    .status-button,
     span {
-			color: white;
-		}
+			color: white !important;
+		  font-family: "Quicksand" !important;
+}
 
 	/* Borders */
 		.list-table,.list-table .list-table-data .data, .list-table .list-table-header .header-title {border: none; }
@@ -49,9 +91,11 @@
 	/* Title */
 		.list-table .data.title .link {
 			font-size: 10px !important;
+			letter-spacing: 0.6px;
+		  font-family: "Quicksand" !important;
 			background-color: rgb(24,24,24);
 			box-shadow: 0 0 3px rgb(0, 0, 0, 0.5);
-			padding: 1px 6px 2px 6px;
+			padding: 3px 7px 3px 7px;
 			border-radius: 0px;
 		}
 		.list-table .data.title .link:hover {
@@ -271,7 +315,7 @@
 			height: 13px;
 			margin-top: -19px;
 			text-align: left;
-			margin-left: 17px;
+			margin-left: 8px;
 		}
 		
 		.data.volume div {
@@ -279,7 +323,7 @@
 			height: 13px;
 			margin-top: 16px;
 			text-align: left;
-			margin-left: 17px;
+			margin-left: 8px;
 		}
 
 		.data.chapter span, .data.volume span {
@@ -287,26 +331,43 @@
 		}
 		
 		[class^="icon-add-"] {
-			margin-left: -11px;
-			margin-right: 5px;
+	height: 13px;
+	padding: 2px 3px 1px 2px;
+	background-color: rgb(24, 24, 24);
+	margin-left: -2px;
+	margin-right: 0;
+	border-radius: 0 2px 2px 0;
 			font-size: 0px;
 		}
 		
 		/* Decoration */
-		.data.volume [class^="icon-add-"] {margin-top: 2px;}
-		.data.chapter [class^="icon-add-"] {margin-top: 2px;}
+		.data.volume [class^="icon-add-"], .data.chapter [class^="icon-add-"] {
+    	margin-top: 0;
+    }
 		[class^="icon-add-"]:before {content: "+"; font-size: 9px; background-color: rgb(34, 34, 34); padding: 0px 1px 0px 1px;}
 
 
+.data.volume span:only-of-type, .data.volume span:after, .data.chapter span:only-of-type, .data.chapter span:after,
+.data.volume div[class$="56743"] .link, .data.volume div[class$="48881"] .link, .data.chapter div[class$="106106"] .link
+{	
+	display: inline-block;
+	height: 16px;
+	padding: 0 3px 0 2px;
+	background-color: rgb(24, 24, 24);
+	margin-left: 2px;
+	border-radius: 2px;
+  width: 25px;
+	text-align: center;
+}
 
 	/* Add Chapter/Volume Prefixes */
 		.data.volume div:before, .data.chapter div:before {
 			display: inline-block;
-			width: 50px;
+			width: 43px;
 			background-color: rgb(24, 24, 24);
 			border-radius: 2px;
 			height: 13px;
-			padding: 2px 8px 1px 3px;
+			padding: 2px 7px 1px 6px;
 			color: white;
 			font-size: 10px;
 			line-height: 1.2;
