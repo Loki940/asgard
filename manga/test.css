@@ -282,31 +282,7 @@ body.ownlist {background: none; background-color: rgb(15, 15, 15)}
 	/* Suppression of "/ -" */
 		.data.chapter, .data.volume {font-size: 0; line-height: 0; }
 
-	/* Fix to Previous Code - Should be incoorporated */
-		.data.volume div[class$="56743"] .link,
-		.data.volume div[class$="48881"] .link,
-		.data.volume div[class$="103707"] .link,
-		.data.volume div[class$="48399"] .link,
-		.data.volume div[class$="24822"] .link,
-		.data.volume div[class$="88923"] .link,
-		.data.volume div[class$="83019"] .link,
-		.data.volume div[class$="25409"] .link,
-		.data.volume div[class$="56133"] .link,
-		.data.volume div[class$="67329"] .link,
-		.data.volume div[class$="45855"] .link,
-		.data.volume div[class$="67617"] .link,
-		.data.volume span:only-of-type, 
-		[class^="icon-add-"], 
-		.data.volume span:after, .data.volume .link:after 
-		{ font-size: 11px; line-height: 1.6; }
-		
-		.data.chapter div[class$="106106"] .link, 
-		.data.chapter span:only-of-type, 
-		[class^="icon-add-"], 
-		.data.chapter span:after, 
-		.data.chapter .link:after 
-		{ font-size: 11px; line-height: 1.4; }
-		
+
 	/* Combine Chapters/Volumes Columns */
 		.header-title.chapters {
 			width: 0 !important;
@@ -352,6 +328,7 @@ body.ownlist {background: none; background-color: rgb(15, 15, 15)}
 		}
 		
 		[class^="icon-add-"] {
+	font-size: 11px;
 	height: 13px;
 	padding: 2px 3px 1px 2px;
 	background-color: rgb(24, 24, 24);
@@ -366,11 +343,34 @@ body.ownlist {background: none; background-color: rgb(15, 15, 15)}
     	margin-top: 0;
     }
 		[class^="icon-add-"]:before {content: "+"; font-size: 9px; background-color: rgb(34, 34, 34); padding: 0px 1px 0px 1px;}
+		
+	/* Fix to Previous Code - Should be incoorporated */
+		.data.volume .link
+		{ line-height: 1.6; }
+		
+		.data.chapter .link
+		{ line-height: 1.4; }
+		
 
-
-.data.volume span:only-of-type, .data.volume span:after, .data.chapter span:only-of-type, .data.chapter span:after,
-.data.volume div[class$="56743"] .link, .data.volume div[class$="48881"] .link, .data.chapter div[class$="106106"] .link
+		.data.volume span:only-of-type, .data.volume span:after, 
+		.data.chapter span:only-of-type, .data.chapter span:after,
+		.data.chapter .link:after,
+		.data.volume .link:after,
+		.data.volume div[class$="56743"] .link,
+		.data.volume div[class$="48881"] .link,
+		.data.volume div[class$="103707"] .link,
+		.data.volume div[class$="48399"] .link,
+		.data.volume div[class$="24822"] .link,
+		.data.volume div[class$="88923"] .link,
+		.data.volume div[class$="83019"] .link,
+		.data.volume div[class$="25409"] .link,
+		.data.volume div[class$="56133"] .link,
+		.data.volume div[class$="67329"] .link,
+		.data.volume div[class$="45855"] .link,
+		.data.volume div[class$="67617"] .link,
+		.data.chapter div[class$="106106"] .link
 {	
+	font-size: 11px;
 	display: inline-block;
 	height: 16px;
 	padding: 0 3px 0 2px;
