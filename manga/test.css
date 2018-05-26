@@ -62,7 +62,7 @@ body.ownlist {background: none; background-color: rgb(15, 15, 15)}
 		.list-table-header .header-title, .list-table > tbody:nth-of-type(2n+1) {background-color: var(--shade2) !important;}
 		.list-table {background-color: var(--shade3)}
 		#copyright,
-    .data.number,
+		.data.number,
 		.data.type, 
 		.list-table 
 		.list-table-header 
@@ -72,6 +72,7 @@ body.ownlist {background: none; background-color: rgb(15, 15, 15)}
 		.header-title.tags,
 		.td1.borderRBL,
     .status-button,
+	.link.edit-disabled,
     span {
 			color: white !important;
 		  font-family: "Quicksand" !important;
