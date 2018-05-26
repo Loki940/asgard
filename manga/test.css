@@ -345,10 +345,12 @@ body.ownlist {background: none; background-color: rgb(15, 15, 15)}
 		[class^="icon-add-"]:before {content: "+"; font-size: 9px; background-color: rgb(34, 34, 34); padding: 0px 1px 0px 1px;}
 		
 	/* Fix to Previous Code - Should be incoorporated */
+		.data.volume span:only-of-type, .data.volume span:after, 
 		.data.volume .link,
 		.data.volume .link:after
 		{ line-height: 1.6; }
 		
+		.data.chapter span:only-of-type, .data.chapter span:after,
 		.data.chapter .link,
 		.data.chapter .link:after
 		{ line-height: 1.4; }
