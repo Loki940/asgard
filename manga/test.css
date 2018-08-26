@@ -374,7 +374,11 @@ body.ownlist {background: none; background-color: rgb(15, 15, 15)}
 		.data.volume div[class$="67329"] .link,
 		.data.volume div[class$="45855"] .link,
 		.data.volume div[class$="67617"] .link,
-		.data.chapter div[class$="106106"] .link
+		.data.volume div[class$="60553"] .link,
+		.data.chapter div[class$="106106"] .link,
+		.data.chapter div[class$="102860"] .link,
+		.data.chapter div[class$="99059"] .link,
+		.data.chapter div[class$="101226"] .link
 {	
 	font-size: 11px;
 	display: inline-block;
